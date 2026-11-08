@@ -4,9 +4,10 @@ Feature: The Projects workspace plugin
 
   Scenario: The workspace page is there
     Given I am on "/projects"
-     Then I should see "Projects"
+     Then the element "h1" should be displayed
+      And the element "#webship-workspace-projects, .items-list, .workspace-page" should be attached
 
   Scenario: The plugin is listed on the Plugins page
     Given I am on "/settings/plugins"
      Then I should see "Projects"
-      And I should see "@webship/workspace-projects"
+      And I should see "@webship.co/workspace-projects"
