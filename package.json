@@ -1,12 +1,14 @@
 {
-  "name": "@webship/workspace-projects",
-  "version": "1.0.0",
+  "name": "@webship.co/workspace-projects",
+  "version": "1.0.0-alpha1",
   "description": "The Projects workspace for Webship Workspace: the `projects/` folder (type sites), its settings file, its 17 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
-  "private": true,
   "license": "ISC",
-  "repository": "github:webship/workspace-projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webship/workspace-projects.git"
+  },
   "files": [
     "dist/src",
     "commands",
@@ -58,7 +60,10 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "@webship/workspace-plugin-api": "github:webship/workspace-plugin-api#1.0.x",
+    "@webship.co/workspace-plugin-api": "^1.0.0-alpha1",
     "typescript": "^5.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
