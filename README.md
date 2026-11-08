@@ -1,4 +1,4 @@
-# @webship/workspace-projects
+# @webship.co/workspace-projects
 
 The **Projects** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `projects/` folder (type `sites`), its settings file (`core/config/workspace.projects.settings.yml`),
