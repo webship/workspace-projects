@@ -20,22 +20,6 @@ The settings file and the docs are placed once and never overwritten: they hold 
 
 | Command |
 | --- |
-| `cmd-drupal11-recommended-project.sh` |
-| `cmd-drupal12-recommended-project.sh` |
-| `cmd-drupalcms2-x-project.sh` |
-| `cmd-tool-backup-project.sh` |
-| `cmd-tools-add-users.sh` |
-| `cmd-tools-cancel-users.sh` |
-| `cmd-tools-checks.sh` |
-| `cmd-tools-clone.sh` |
-| `cmd-tools-graphify.sh` |
-| `cmd-tools-hostnames.sh` |
-| `cmd-tools-obsidian.sh` |
-| `cmd-tools-ragify.sh` |
-| `cmd-tools-reclaim.sh` |
-| `cmd-tools-remove.sh` |
-| `cmd-tools-screen.sh` |
-| `cmd-tools-testing.sh` |
-| `cmd-webships3-0-x-project.sh` |
+| (none) |
 
 The bash functions these commands call live in the dashboard's `core/scripts/functions`.

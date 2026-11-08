@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-projects",
   "version": "1.0.0-alpha1",
-  "description": "The Projects workspace for Webship Workspace: the `projects/` folder (type sites), its settings file, its 17 commands and its docs, activated as a plugin.",
+  "description": "The Projects workspace for Webship Workspace: the `projects/` folder (type sites), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,25 +29,7 @@
     "workspace": {
       "key": "projects",
       "settingsTemplate": "config/workspace.projects.settings.yml",
-      "files": [
-        "commands/cmd-drupal11-recommended-project.sh",
-        "commands/cmd-drupal12-recommended-project.sh",
-        "commands/cmd-drupalcms2-x-project.sh",
-        "commands/cmd-tool-backup-project.sh",
-        "commands/cmd-tools-add-users.sh",
-        "commands/cmd-tools-cancel-users.sh",
-        "commands/cmd-tools-checks.sh",
-        "commands/cmd-tools-clone.sh",
-        "commands/cmd-tools-graphify.sh",
-        "commands/cmd-tools-hostnames.sh",
-        "commands/cmd-tools-obsidian.sh",
-        "commands/cmd-tools-ragify.sh",
-        "commands/cmd-tools-reclaim.sh",
-        "commands/cmd-tools-remove.sh",
-        "commands/cmd-tools-screen.sh",
-        "commands/cmd-tools-testing.sh",
-        "commands/cmd-webships3-0-x-project.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
