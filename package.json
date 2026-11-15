@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-projects",
   "version": "1.0.8",
-  "description": "The Projects workspace for Webship Workspace: the `projects/` folder (type sites), its settings file, its 14 commands and its docs, activated as a plugin.",
+  "description": "The Projects workspace for Webship Workspace: the `projects/` folder (type sites), its settings file, its 14 commands, its docs and its AI items (an agent, a skill, a command and a prompt, each in the folder of its kind), activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -11,6 +11,7 @@
   },
   "files": [
     "dist/src",
+    "ai",
     "commands",
     "config",
     "docs",
@@ -26,6 +27,12 @@
   "workspacePlugin": {
     "name": "projects",
     "label": "Projects",
+    "needs": [
+      "ai-agents",
+      "ai-skills",
+      "ai-commands",
+      "ai-prompts"
+    ],
     "workspace": {
       "key": "projects",
       "settingsTemplate": "config/workspace.projects.settings.yml",
@@ -49,6 +56,20 @@
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
         "docs/README.md"
+      ]
+    },
+    "ai": {
+      "agents": [
+        "ai/agents/projects-site-keeper.md"
+      ],
+      "skills": [
+        "ai/skills/projects-workflow"
+      ],
+      "commands": [
+        "ai/commands/projects-clone.md"
+      ],
+      "prompts": [
+        "ai/prompts/projects-backup-clone-and-test.md"
       ]
     },
     "features": [
