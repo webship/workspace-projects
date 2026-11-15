@@ -33,3 +33,13 @@ bash cmd-tools-testing.sh                             # Set up the automated-tes
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-projects`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `projects-site-keeper` (`ai-agents/`): Works on a client project in `projects/` without putting it at risk: backup, a clone to try the change on, its Webship-js suite, its addresses; starts a new project from a builder
+- `projects-workflow` (`ai-skills/`): How work is done in `projects/`: back up, clone, test, clear the clone; every command with its flags, the settings keys
+- `/projects-clone` (`ai-commands/`): `/projects-clone <project> [new name] [folder]`: backs the project up, clones it and says where the clone answers
+- `projects-backup-clone-and-test` (`ai-prompts/`): A new session that backs a project up, clones it and runs the Webship-js suite on the clone
