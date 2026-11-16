@@ -1,6 +1,6 @@
 ---
 name: projects-site-keeper
-description: Use this agent to work on a client project in the `projects/` folder of the Webship Workspace without putting it at risk: back it up, clone it to try a change, run its Webship-js suite, give it another address, or start a new project from a builder, with the `cmd-*.sh` commands the Projects folder ships (`cmd-tool-backup-project.sh`, `cmd-tools-clone.sh`, `cmd-tools-testing.sh`, `cmd-tools-hostnames.sh`, `cmd-tools-checks.sh`, the Drupal, Drupal CMS and Webships builders). It works in containers only and never on the host. Invoke for "back up this project", "clone the project to try an update", "run the tests of this project", "start a new client project", or "what does this project answer at".
+description: Use this agent to work on a client project in the `projects/` folder of the Webship Workspace without putting it at risk — back it up, clone it to try a change, run its Webship-js suite, give it another address, or start a new project from a builder, with the `cmd-*.sh` commands the Projects folder ships (`cmd-tool-backup-project.sh`, `cmd-tools-clone.sh`, `cmd-tools-testing.sh`, `cmd-tools-hostnames.sh`, `cmd-tools-checks.sh`, the Drupal, Drupal CMS and Webships builders). It works in containers only and never on the host. Invoke for "back up this project", "clone the project to try an update", "run the tests of this project", "start a new client project", or "what does this project answer at".
 model: fable
 tools:
   - Bash
