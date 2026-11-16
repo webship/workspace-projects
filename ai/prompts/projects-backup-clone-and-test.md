@@ -8,6 +8,7 @@ Back up the project <project> of the projects folder, clone it as <clone>, and t
 # ~/workspace/projects · https://<clone>.ddev.site · container-based (DDEV by default)
 # the project itself is never changed, rebuilt or removed in this session
 # nothing on the host: no composer, drush, npm or mysql outside a site's container
+# a feature to write or a run to read: the book Automated Functional Testing Recipes first (its README.md, then the matching chapter), from .claude/automated-functional-testing-recipes/ in the project, ~/.claude/automated-functional-testing-recipes/ or https://github.com/webship/webship-js-ai-agent/tree/2.0.x/automated-functional-testing-recipes
 
 1. bash cmd-tool-backup-project.sh <project>
    tell me the two files it wrote in backups/projects/

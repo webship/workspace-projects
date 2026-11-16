@@ -52,3 +52,9 @@ bash cmd-tools-remove.sh <new name>            # when the change was tried
 
 Never remove or rebuild the project itself. For the change and its tests, hand over to the
 `projects-site-keeper` agent; the `projects-workflow` skill lists every command of the folder.
+
+Before you write or change a scenario, or read a failed run, read the book *Automated Functional
+Testing Recipes* (its `README.md`, then the matching chapter):
+`.claude/automated-functional-testing-recipes/` in the project,
+`~/.claude/automated-functional-testing-recipes/`, or
+https://github.com/webship/webship-js-ai-agent/tree/2.0.x/automated-functional-testing-recipes
